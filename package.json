@@ -1,6 +1,6 @@
 {
   "name": "inita-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "app.js",
   "keywords": [],
   "author": "Andrija Kevic <akevic@gmail.com>",
