@@ -19,19 +19,6 @@ It's simple to use inita-cli, all you have to do is pass name and package manage
 ```
 inita -n petProject -p yarn
 ```
-#### Options to be added
-
-In the future some options will be added to the project.
-
-- [x] `--no-init` – initializing a new git project
-- [x] `--no-git` – don't initialize anything on the folder
-- [ ] `--hub repo-name` – create a new public repository on github
-
-## What's next?
-
-- [x] Scaffolding from GitHub
-- [ ] Scaffolding from other git sources (GitLab, Bitbucket, etc.)
-- [x] Automatically create the first commit
 
 ## [License](LICENSE)
 
