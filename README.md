@@ -1,3 +1,5 @@
+# Inita CLI
+
 ## Installation
 
 To use the `init` command globally install it using the `-g` argument of the `npm install` command like this:
