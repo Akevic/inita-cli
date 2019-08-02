@@ -1,0 +1,17 @@
+{
+  "name": "initCLI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andrija Kevic <andrija@pointjupiter.com>",
+  "license": "ISC",
+  "dependencies": {
+    "listr": "^0.14.3",
+    "yargs": "^13.3.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
