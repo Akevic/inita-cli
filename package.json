@@ -5,6 +5,9 @@
   "keywords": [],
   "author": "Andrija Kevic <akevic@gmail.com>",
   "repository": "https://github.com/Akevic/inita-cli",
+  "bin": {
+    "inita": "./bin/app.js"
+  },
   "license": "ISC",
   "dependencies": {
     "listr": "^0.14.3",
