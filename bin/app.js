@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const exec = require('child_process').exec
 const argv = require('yargs').argv
 const Listr = require('listr')
