@@ -1,17 +1,17 @@
 {
-  "name": "initCLI",
+  "name": "inita-cli",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Andrija Kevic <andrija@pointjupiter.com>",
+  "author": "Andrija Kevic <akevic@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "listr": "^0.14.3",
     "yargs": "^13.3.0"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "CLI for easier project initialization"
 }
