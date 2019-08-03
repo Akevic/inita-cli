@@ -2,7 +2,15 @@
   "name": "inita-cli",
   "version": "1.0.3",
   "main": "app.js",
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "project",
+    "initialization",
+    "yargs",
+    "listr",
+    "folder structure",
+    "project initialization"
+  ],
   "author": "Andrija Kevic <akevic@gmail.com>",
   "repository": "https://github.com/Akevic/inita-cli",
   "bin": {
@@ -13,6 +21,5 @@
     "listr": "^0.14.3",
     "yargs": "^13.3.0"
   },
-  "devDependencies": {},
   "description": "CLI for easier project initialization"
 }
