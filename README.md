@@ -32,6 +32,6 @@ Inita CLI can also be used with `npx` command if you'd rather not install it glo
 npx inita-cli -n petProject -p yarn
 ```
 
-## [License](LICENSE)
+## License
 
 This project is licensed under ISC license
