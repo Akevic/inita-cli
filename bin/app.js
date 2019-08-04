@@ -2,21 +2,15 @@
 const exec = require('child_process').exec
 const argv = require('yargs').argv
 const Listr = require('listr')
-
-const makeDir = () => exec(`mkdir ${argv.n}`)
-
-const changeDir = () => exec(`cd ${argv.n}`)
-
-const gitInit = () => exec(`cd ${argv.n} && git init`)
-
-const npmInit = () => exec(`cd ${argv.n} && npm init -y`)
-
-const yarnInit = () => exec(`cd ${argv.n} && yarn init -y`)
-
+const makeDir = require('../lib/methods')
+const changeDir = require('../lib/methods')
+const gitInit = require('../lib/methods')
+const npmInit = require('../lib/methods')
+const yarnInit = require('../lib/methods')
 
 const tasks = new Listr([
   {
-    title: 'Creating folder',
+    title: 'Creating directory',
     task: () => makeDir()
   },
   {
@@ -24,7 +18,7 @@ const tasks = new Listr([
     task: () => changeDir()
   },
   {
-    title: 'Initialize git',
+    title: 'Create empyty git repository',
     task: () => gitInit()
   },
   {
