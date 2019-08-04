@@ -16,10 +16,16 @@
   "bin": {
     "inita": "./bin/app.js"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "license": "ISC",
   "dependencies": {
     "listr": "^0.14.3",
     "yargs": "^13.3.0"
   },
-  "description": "CLI for easier project initialization"
+  "description": "CLI for easier project initialization",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
 }
