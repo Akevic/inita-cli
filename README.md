@@ -33,4 +33,4 @@ Inita CLI can also be used with `npx` command if you'd rather not install it glo
 
 ## License
 
-This project is licensed under ISC license
+This project is licensed under MIT license
