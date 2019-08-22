@@ -7,6 +7,7 @@ const changeDir = require('../lib/methods')
 const gitInit = require('../lib/methods')
 const npmInit = require('../lib/methods')
 const yarnInit = require('../lib/methods')
+const gitIgnore = require('../lib/methods')
 
 const tasks = new Listr([
   {
@@ -32,7 +33,11 @@ const tasks = new Listr([
         throw new Error('You must choose package manager')
       }
     }
-  }
+  },
+  {
+    title: 'Create empyty .gitignore file',
+    task: () => gitIgnore()
+  },
 ])
 
 tasks.run().catch(err => {
