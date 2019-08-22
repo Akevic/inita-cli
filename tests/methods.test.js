@@ -3,6 +3,7 @@ const changeDir = require('../lib/methods')
 const gitInit = require('../lib/methods')
 const npmInit = require('../lib/methods')
 const yarnInit = require('../lib/methods')
+const gitIgnore = require('../lib/methods')
 
 describe('make directory', () => {
   const makeDirMock = makeDir()
@@ -41,5 +42,13 @@ describe('initialize yarn package manager', () => {
 
   it('initializes yarn package manager and creates package.json', () => {
     expect(yarnInitMock).toBeTruthy()
+  })
+})
+
+describe('initialize empty gitignore file', () => {
+  const gitIgnoreMock = gitIgnore()
+
+  it('initializes empty gitignore file', () => {
+    expect(gitIgnoreMock).toBeTruthy()
   })
 })
