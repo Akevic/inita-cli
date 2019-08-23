@@ -7,14 +7,6 @@ const {
   gitIgnore
 } = require('../lib/methods')
 
-describe('make directory', () => {
-  const makeDirMock = makeDir()
-
-  it('creates directory', () => {
-    expect(makeDirMock).toBeTruthy()
-  })
-})
-
 describe('change directory', () => {
   const changeDirMock = changeDir()
 
