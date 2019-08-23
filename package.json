@@ -2,6 +2,8 @@
   "name": "inita-cli",
   "version": "1.2.1",
   "main": "app.js",
+  "description": "CLI for easier project initialization",
+  "author": "Andrija Kevic <akevic@gmail.com> (sloth.codes)",
   "keywords": [
     "cli",
     "project",
@@ -11,7 +13,6 @@
     "folder structure",
     "project initialization"
   ],
-  "author": "Andrija Kevic <akevic@gmail.com>",
   "repository": "https://github.com/Akevic/inita-cli",
   "bin": {
     "inita": "./bin/app.js"
@@ -19,13 +20,12 @@
   "scripts": {
     "test": "jest"
   },
-  "license": "ISC",
   "dependencies": {
     "listr": "^0.14.3",
     "yargs": "^13.3.0"
   },
-  "description": "CLI for easier project initialization",
   "devDependencies": {
     "jest": "^24.8.0"
-  }
+  },
+  "license": "ISC"
 }
