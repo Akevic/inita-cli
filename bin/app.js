@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const exec = require('child_process').exec
 const argv = require('yargs').argv
 const Listr = require('listr')
 const { makeDir, changeDir, gitInit, npmInit, yarnInit, gitIgnore } = require('../lib/methods')
