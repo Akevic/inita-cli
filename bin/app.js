@@ -1,7 +1,15 @@
 #!/usr/bin/env node
 const argv = require('yargs').argv
 const Listr = require('listr')
-const { makeDir, changeDir, gitInit, npmInit, yarnInit, gitIgnore } = require('../lib/methods')
+const {
+  makeDir,
+  changeDir,
+  gitInit,
+  npmInit,
+  yarnInit,
+  gitIgnore
+} = require('../lib/methods')
+
 
 const tasks = new Listr([
   {

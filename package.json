@@ -17,6 +17,11 @@
   "bin": {
     "inita": "./bin/app.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
   "scripts": {
     "test": "jest"
   },
@@ -25,6 +30,7 @@
     "yargs": "^13.3.0"
   },
   "devDependencies": {
+    "husky": "^3.0.4",
     "jest": "^24.8.0"
   },
   "license": "ISC"

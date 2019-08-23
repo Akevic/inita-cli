@@ -1,4 +1,11 @@
-const { makeDir, changeDir, gitInit, npmInit, yarnInit, gitIgnore } = require('../lib/methods')
+const {
+  makeDir,
+  changeDir,
+  gitInit,
+  npmInit,
+  yarnInit,
+  gitIgnore
+} = require('../lib/methods')
 
 describe('make directory', () => {
   const makeDirMock = makeDir()
