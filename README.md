@@ -14,10 +14,6 @@ To use the `init` command globally install it using the `-g` argument of the `np
 
 ### `npm install -g inita-cli`
 
-To run tests use command:
-
-### `npm test`
-
 ## How it works
 
 Inita CLI uses yargs to parse given arguments and create appropriate folder structure
