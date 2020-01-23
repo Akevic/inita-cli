@@ -1,6 +1,6 @@
 {
   "name": "inita-cli",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "app.js",
   "description": "CLI for easier project initialization",
   "author": "Andrija Kevic <akevic@gmail.com> (sloth.codes)",
